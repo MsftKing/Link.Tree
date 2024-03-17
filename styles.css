@@ -45,3 +45,35 @@ header, main, body {
     display: flex;
     flex-direction: column;
 }
+
+.link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 14px;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    width: 420px;
+    max-width: 100%;
+    margin: 0 auto;
+    transition-duration: 200ms;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.link:hover {
+    border-color: skyblue;
+}
+
+.linkBackground {
+    position: absolute;
+    inset: 0;
+    background: #020617;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+.link p {
+    font-size: 0.8em;
+}
