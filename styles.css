@@ -41,6 +41,14 @@ header {
    gap: 14px;
 }
 
+header img {
+    max-width: 140px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 100%;
+    margin-bottom: 8px;
+}
+
 header, main, body {
     display: flex;
     flex-direction: column;
@@ -60,6 +68,8 @@ header, main, body {
     transition-duration: 200ms;
     cursor: pointer;
     overflow: hidden;
+    color: white;
+    text-decoration: none !important;
 }
 
 .link:hover {
